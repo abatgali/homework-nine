@@ -1,0 +1,14 @@
+#trees {
+  display: flexbox;
+}
+#trees .pic {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#trees #one {
+  background-image: url(../images/trees/1.jpeg);
+}

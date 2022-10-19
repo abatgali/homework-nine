@@ -1,0 +1,126 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Archivo-Black";
+}
+
+@font-face {
+  font-family: "Archivo-Black";
+  src: url(../lib/fonts/Archivo/static/Archivo/Archivo-Black.ttf);
+}
+@font-face {
+  font-family: "Archivo-Light";
+  src: url(../lib/fonts/Archivo/static/Archivo/Archivo-Light.ttf);
+}
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  height: 8%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.6em;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav #logo {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background-image: url(../images/logo.png);
+}
+
+header {
+  height: 300px;
+  width: 100%;
+  background-image: url(../images/hero.jpeg);
+  background-size: cover;
+}
+
+#content {
+  padding: 2em;
+  text-align: center;
+  font-family: "Archivo-Light";
+}
+#content #mission_pic {
+  background-image: url(../images/mission.jpeg);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 3em auto;
+  background-position: center;
+  background-color: antiquewhite;
+}
+
+#trees {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2em;
+  margin: 0 auto;
+  width: 80%;
+}
+#trees .pic {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-color: beige;
+}
+#trees #one {
+  background-image: url(../images/trees/1.jpeg);
+}
+#trees #two {
+  background-image: url(../images/trees/2.jpeg);
+}
+#trees #three {
+  background-image: url(../images/trees/3.jpeg);
+}
+#trees #four {
+  background-image: url(../images/trees/4.jpeg);
+}
+#trees #five {
+  background-image: url(../images/trees/5.jpeg);
+}
+#trees #six {
+  background-image: url(../images/trees/6.jpeg);
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  line-height: 3em;
+  gap: 0.5em;
+  margin: 4em auto;
+}
+form input {
+  padding: 1em;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+  border-top: solid 0.5px black;
+}

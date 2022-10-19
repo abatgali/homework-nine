@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Archivo-Black';
+}
+
+@font-face {
+    font-family: 'Archivo-Black';
+    src: url(../lib/fonts/Archivo/static/Archivo/Archivo-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Archivo-Light';
+    src: url(../lib/fonts/Archivo/static/Archivo/Archivo-Light.ttf);
+}
